@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8f986c50-d25d-49de-a2ee-b3df0287c992"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MyTestDemo">
+	</codegen>
+	<variables>
+		<var
+		id="f225a7b5-16e0-41f7-bf6b-f039a4d53938"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\ADMIN\Downloads\RxSampleDataDrivenTesting\RxSampleDataDrivenTesting\RxDatabase\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="dca8bd59-d2e9-41b5-bba9-4d1cab08b334"
+	name="MyTestDemoRepository"
+	relativepath="MyTestDemoRepository.rxrep">
+		<codegen
+		classname="MyTestDemoRepository"
+		namespace="MyTestDemo">
+		</codegen>
+		<rootfolder
+		id="63420ca7-8589-43d7-88f7-8cf050cf6002"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
